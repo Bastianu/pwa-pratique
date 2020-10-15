@@ -20,7 +20,8 @@ function loadTechnologies(technos) {
         })
         .catch(console.error);
 }
- 
+  
+
 loadTechnologies(technos);
 
 if(navigator.serviceWorker) {
