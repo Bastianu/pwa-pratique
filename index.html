@@ -10,6 +10,34 @@
         <link href="style.css" rel="stylesheet">
       </head>    
       <body id="page-top">
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyDTHN-cn9kQbN_MOoUB4ngn3cpX6tsrWvo",
+            authDomain: "pwa-technos-342c5.firebaseapp.com",
+            databaseURL: "https://pwa-technos-342c5.firebaseio.com",
+            projectId: "pwa-technos-342c5",
+            storageBucket: "pwa-technos-342c5.appspot.com",
+            messagingSenderId: "316110767300",
+            appId: "1:316110767300:web:31b45a21a16ba1d7463591"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+        </script>
+
+
+
+
+
+
+
         <div class="row">
             <div class="col"><a href="index.html">accueil</a></div>
             <div class="col"><a href="add_techno.html">technos</a></div>
